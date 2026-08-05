@@ -1,22 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   libft.h                                            :+:      :+:    :+:   */
+/*   ft_isdigit.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: abezatog <abezatog@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/08/05 11:16:03 by abezatog          #+#    #+#             */
-/*   Updated: 2026/08/05 21:38:16 by abezatog         ###   ########.fr       */
+/*   Created: 2026/08/05 20:56:30 by abezatog          #+#    #+#             */
+/*   Updated: 2026/08/05 21:13:07 by abezatog         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LIBFT_H
-# define LIBFT_H
+#include "libft.h"
 
-int	ft_isalnum(int c);
-int	ft_isalpha(int c);
-int	ft_isascii(int c);
-int	ft_isdigit(int c);
-int	ft_isprint(int c);
-
-#endif
+int	ft_isdigit(int c)
+{
+	return (c >= '0' && c <= '9');
+}

@@ -1,22 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   libft.h                                            :+:      :+:    :+:   */
+/*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: abezatog <abezatog@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/08/05 11:16:03 by abezatog          #+#    #+#             */
-/*   Updated: 2026/08/05 21:38:16 by abezatog         ###   ########.fr       */
+/*   Created: 2026/08/05 20:54:59 by abezatog          #+#    #+#             */
+/*   Updated: 2026/08/05 21:11:09 by abezatog         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LIBFT_H
-# define LIBFT_H
+#include "libft.h"
 
-int	ft_isalnum(int c);
-int	ft_isalpha(int c);
-int	ft_isascii(int c);
-int	ft_isdigit(int c);
-int	ft_isprint(int c);
-
-#endif
+int	ft_isalpha(int c)
+{
+	return ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'));
+}
