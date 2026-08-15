@@ -6,7 +6,7 @@
 /*   By: abezatog <abezatog@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/05 11:16:03 by abezatog          #+#    #+#             */
-/*   Updated: 2026/08/15 00:36:04 by abezatog         ###   ########.fr       */
+/*   Updated: 2026/08/15 23:30:46 by abezatog         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,5 +43,10 @@ int		ft_atoi(const char *nptr);
 
 void	*ft_calloc(size_t nmemb, size_t size);
 char	*ft_strdup(const char *s);
+
+char	*ft_substr(char const *s, unsigned int start, size_t len);
+char	*ft_strjoin(char const *s1, char const *s2);
+char	*ft_strtrim(char const *s1, char const *set);
+char	*ft_itoa(int n);
 
 #endif
