@@ -6,11 +6,9 @@
 /*   By: abezatog <abezatog@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/05 20:56:30 by abezatog          #+#    #+#             */
-/*   Updated: 2026/08/05 21:13:07 by abezatog         ###   ########.fr       */
+/*   Updated: 2026/08/16 14:11:55 by abezatog         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int	ft_isdigit(int c)
 {

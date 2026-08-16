@@ -6,14 +6,13 @@
 /*   By: abezatog <abezatog@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/05 11:16:03 by abezatog          #+#    #+#             */
-/*   Updated: 2026/08/15 23:30:46 by abezatog         ###   ########.fr       */
+/*   Updated: 2026/08/16 14:08:32 by abezatog         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
-# include <stddef.h>
 # include <stdlib.h>
 
 int		ft_isalnum(int c);

@@ -6,11 +6,9 @@
 /*   By: abezatog <abezatog@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/05 20:55:37 by abezatog          #+#    #+#             */
-/*   Updated: 2026/08/05 21:18:17 by abezatog         ###   ########.fr       */
+/*   Updated: 2026/08/16 14:11:59 by abezatog         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int	ft_isprint(int c)
 {

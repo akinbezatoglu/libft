@@ -6,11 +6,9 @@
 /*   By: abezatog <abezatog@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/12 17:35:56 by abezatog          #+#    #+#             */
-/*   Updated: 2026/08/15 00:10:28 by abezatog         ###   ########.fr       */
+/*   Updated: 2026/08/16 14:10:08 by abezatog         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int	ft_atoi(const char *nptr)
 {
