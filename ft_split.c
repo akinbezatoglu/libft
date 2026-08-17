@@ -6,7 +6,7 @@
 /*   By: abezatog <abezatog@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/12 20:23:05 by abezatog          #+#    #+#             */
-/*   Updated: 2026/08/16 16:32:53 by abezatog         ###   ########.fr       */
+/*   Updated: 2026/08/17 15:39:40 by abezatog         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,6 +67,7 @@ char	**ft_split(char const *s, char c)
 	strs = (char **)malloc((ft_word_count(s, c) + 1) * sizeof(char *));
 	if (!strs)
 		return (NULL);
+	i = 0;
 	while (*s)
 	{
 		while (*s == c)
