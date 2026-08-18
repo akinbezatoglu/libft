@@ -6,7 +6,7 @@
 /*   By: abezatog <abezatog@student.42istanbul.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/05 21:48:35 by abezatog          #+#    #+#             */
-/*   Updated: 2026/08/10 22:33:18 by abezatog         ###   ########.fr       */
+/*   Updated: 2026/08/19 00:15:51 by abezatog         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,6 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 
 	if (*little == '\0')
 		return ((char *)big);
-
 	l = 0;
 	while (*big && l < len)
 	{
