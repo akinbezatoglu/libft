@@ -6,7 +6,7 @@
 #    By: abezatog <abezatog@student.42istanbul.c    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/08/05 11:15:16 by abezatog          #+#    #+#              #
-#    Updated: 2026/08/19 00:12:11 by abezatog         ###   ########.fr        #
+#    Updated: 2026/08/19 11:38:34 by abezatog         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -21,7 +21,8 @@ SRCS = ft_isalnum.c ft_isalpha.c ft_isascii.c ft_isdigit.c ft_isprint.c \
 	   ft_atoi.c ft_calloc.c ft_strdup.c ft_substr.c ft_strjoin.c \
 	   ft_strtrim.c ft_split.c ft_itoa.c ft_strmapi.c ft_striteri.c \
 	   ft_putchar_fd.c ft_putstr_fd.c ft_putendl_fd.c ft_putnbr_fd.c \
-	   ft_lstnew.c ft_lstadd_front.c ft_lstsize.c 
+	   ft_lstnew.c ft_lstadd_front.c ft_lstsize.c ft_lstlast.c \
+	   ft_lstadd_back.c ft_lstdelone.c ft_lstclear.c ft_lstiter.c ft_lstmap.c
 OBJS = $(SRCS:.c=.o)
 
 $(NAME): $(OBJS)
