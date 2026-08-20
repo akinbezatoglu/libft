@@ -1,6 +1,3 @@
-![42 Istanbul](https://img.shields.io/badge/42-Istanbul-000000?style=flat-square&logo=42&logoColor=white)
-![C](https://img.shields.io/badge/Language-C-blue?style=flat-square&logo=c&logoColor=white)
-
 *This project has been created as part of the 42 curriculum by abezatog.*
 
 ### Description
@@ -34,3 +31,15 @@ This project features a collection of rewritten libc functions that will serve a
 	- Completely clean and recompile everything from scratch:
 
 		```make re```
+
+5. #### Resources
+	- [FreeBSD Manual Pages](https://man.freebsd.org/cgi/man.cgi)
+	- Linux Programmer's Manual
+	- C Standart library Reference
+	- W3schools - [C string (string.h) Library](https://www.w3schools.com/c/c_ref_string.php)
+
+6. #### AI Usage
+
+	AI has been used for the following purposes:
+	- Testing for edge cases
+	- Better understanding of the subject page
