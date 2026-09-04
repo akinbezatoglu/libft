@@ -1,5 +1,8 @@
 *This project has been created as part of the 42 curriculum by abezatog.*
 
+![42 Istanbul](https://img.shields.io/badge/42-Istanbul-000000?style=flat-square&logo=42&logoColor=white)
+![C](https://img.shields.io/badge/Language-C-blue?style=flat-square&logo=c&logoColor=white)
+
 ### Description
 This project features a collection of rewritten libc functions that will serve as a foundational static library for future C projects. Each function is starts with **ft_** and replicates the original behavior of the standard library to reinforce core programming concepts.
 ### Instructions
